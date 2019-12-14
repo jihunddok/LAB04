@@ -2,7 +2,7 @@
 
 ## Usage
 ```Shell
-$ gcc -o server_socket server.c
+$ gcc -o server_socket server.c -lpthread
 $ ./server_socket (portnumber)
 
 $ cd Client
